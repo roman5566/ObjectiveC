@@ -1,7 +1,7 @@
 Doodle Tunes
 ===========
 
-![Alt text](/https://github.com/RanbirAulakh/ObjectiveC/tree/master/Doodle Tunes/DisplayImages4Github/to/doodleicon.png "")
+![My image](RanbirAulakh.github.com/ObjectiveC/Doodle Tunes/DisplayImages4Github/doodleicon.jpg)
 
 Description:
 Doodle Tunes, the insanely addictive game of drawing songs. Drag the spaceship to avoid getting smacked by asteroids. Doodle tunes features an upbeat soundtrack, eye popping visuals, and addictive gameplay. Get ready to Get Smacked!
