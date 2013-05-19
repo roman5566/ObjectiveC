@@ -12,18 +12,17 @@ Doodle Tunes, the insanely addictive game of drawing songs. Drag the spaceship t
 ![Picture3](http://a1382.phobos.apple.com/us/r1000/091/Purple2/v4/5d/f3/73/5df3730c-6b2a-56d3-2230-addda2c4ae24/mzl.iihogyck.320x480-75.jpg)
 
 ## Version 1.1.2
-NEW - Star Explosions Particle Effects
-NEW - Show Meters In-Game
-NEW - Added Restart in Pause Menu
-NEW - Added How-To-Play in Main Menu
-NEW - Support Retina Display
-FIX - Sluttering Background Images
-FIX - Improved Graphics
-FIX - Improved Sound Quality
-FIX - Improved Score In-Game
-FIX - Improved Collisions Detection
-FIX - Flickering & Weird Splash Background
-
+> NEW - Star Explosions Particle Effects
+> NEW - Show Meters In-Game
+> NEW - Added Restart in Pause Menu
+> NEW - Added How-To-Play in Main Menu
+> NEW - Support Retina Display
+> FIX - Sluttering Background Images
+> FIX - Improved Graphics
+> FIX - Improved Sound Quality
+> FIX - Improved Score In-Game
+> FIX - Improved Collisions Detection
+> FIX - Flickering & Weird Splash Background
 
 =================================
 ## License: 
