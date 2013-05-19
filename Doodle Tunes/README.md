@@ -2,16 +2,20 @@ Doodle Tunes
 ===========
 
 ![Picture](http://gyazo.com/25365eac65a0bdf86987754a691d8f3c.png)
+
 =================================
 
 ## Description:
+
 Doodle Tunes, the insanely addictive game of drawing songs. Drag the spaceship to avoid getting smacked by asteroids. Doodle tunes features an upbeat soundtrack, eye popping visuals, and addictive gameplay. Get ready to Get Smacked!
+
 =================================
 
 ## Screenshots:
 ![Picture1](http://a995.phobos.apple.com/us/r1000/060/Purple/v4/c8/7f/c1/c87fc1b7-e046-9ed8-7560-b4ca23b2150f/mzl.xbfyysgm.320x480-75.jpg)
 ![Picture2](http://a157.phobos.apple.com/us/r1000/078/Purple2/v4/e3/2c/92/e32c928a-92fb-de9e-c011-8ffcb5db97d4/mzl.gbmpzrni.320x480-75.jpg)
 ![Picture3](http://a1382.phobos.apple.com/us/r1000/091/Purple2/v4/5d/f3/73/5df3730c-6b2a-56d3-2230-addda2c4ae24/mzl.iihogyck.320x480-75.jpg)
+
 =================================
 
 ## Version 1.1.2
