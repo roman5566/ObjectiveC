@@ -7,6 +7,7 @@ Doodle Tunes
 
 ## Description:
 
+Download App for iOS: https://itunes.apple.com/us/app/doodle-tune/id570343837?mt=8
 Doodle Tunes, the insanely addictive game of drawing songs. Drag the spaceship to avoid getting smacked by asteroids. Doodle tunes features an upbeat soundtrack, eye popping visuals, and addictive gameplay. Get ready to Get Smacked!
 
 =================================
