@@ -1,4 +1,4 @@
-Doodle Tunes
+Doodle Tunes - iPAD
 ===========
 
 ![Picture](http://gyazo.com/25365eac65a0bdf86987754a691d8f3c.png)
@@ -18,18 +18,8 @@ Doodle Tunes, the insanely addictive game of drawing songs. Drag the spaceship t
 
 =================================
 
-## Version 1.1.2
-* NEW - Star Explosions Particle Effects
-* NEW - Show Meters In-Game
-* NEW - Added Restart in Pause Menu
-* NEW - Added How-To-Play in Main Menu
-* NEW - Support Retina Display
-* FIX - Sluttering Background Images
-* FIX - Improved Graphics
-* FIX - Improved Sound Quality
-* FIX - Improved Score In-Game
-* FIX - Improved Collisions Detection
-* FIX - Flickering & Weird Splash Background
+## Version 1.0
+* NEW - Initial Release for iPad
 
 =================================
 ## License: 
