@@ -29,15 +29,7 @@
 
 @interface Home : CCLayer
 {
-    CCSprite *_bear;
-    CCAction *_walkAction;
-    CCAction *_moveAction;
-    BOOL _moving;
     
-    //UIViewController
 }
-@property (nonatomic, retain) CCSprite *bear;
-@property (nonatomic, retain) CCAction *walkAction;
-@property (nonatomic, retain) CCAction *moveAction;
 +(id) scene;
 @end
