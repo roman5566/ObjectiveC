@@ -31,9 +31,6 @@
 #import "HTP.h"
 
 @implementation Home
-@synthesize bear = _bear;
-@synthesize moveAction = _moveAction;
-@synthesize walkAction = _walkAction;
 +(id) scene {
 	// 'scene' is an autorelease object.
 	CCScene *scene = [CCScene node];

@@ -55,26 +55,26 @@
 		[[SimpleAudioEngine sharedEngine] pauseBackgroundMusic];
 		
 		CCSprite * bg1 = [CCSprite spriteWithFile:@"pauseTom1.png"]; //Background of the Game
-		bg1.position = ccp(240, 160); //Position
+		bg1.position = ccp(512, 384); //Position
 		[self addChild:bg1]; //Add BG
 		
-		[CCMenuItemFont setFontSize:30];
+		[CCMenuItemFont setFontSize:60];
 		[CCMenuItemFont setFontName:@"Trebuchet MS"];
 		
 		CCMenuItemFont *resumebutton = [CCMenuItemFont itemWithString:@"RESUME" target:self selector:@selector(resume:)]; //Resume the game
-        resumebutton.position = ccp(8, 63); // Set Position
+        resumebutton.position = ccp(8, 143); // Set Position
         [resumebutton setColor:ccBLACK]; // Set Color
 		CCMenu *menu = [CCMenu menuWithItems:resumebutton, nil];
 		[self addChild:menu z:2];
 		
 		CCMenuItemFont *exitbutton = [CCMenuItemFont itemWithString:@"QUIT" target:self selector:@selector(GoToMainMenu:)]; //Exit the game
-        exitbutton.position = ccp(8, -105); // Set Position
+        exitbutton.position = ccp(8, -195); // Set Position
         [exitbutton setColor:ccBLACK]; // Set Color
 		CCMenu *menu1 = [CCMenu menuWithItems:exitbutton, nil];
 		[self addChild:menu1 z:2];
         
         CCMenuItemFont *restartbutton = [CCMenuItemFont itemWithString:@"RESTART" target:self selector:@selector(restart:)]; //Restart the Game
-        restartbutton.position = ccp(8, 10); // Set Position
+        restartbutton.position = ccp(8, 38); // Set Position
         [restartbutton setColor:ccBLACK]; // Set Color
 		CCMenu *menu2 = [CCMenu menuWithItems:restartbutton, nil];
 		[self addChild:menu2 z:2];
