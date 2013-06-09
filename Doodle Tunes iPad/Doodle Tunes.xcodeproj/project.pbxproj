@@ -171,6 +171,7 @@
 		07C9B30C1689044600E582A4 /* HTP.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C9B30B1689044600E582A4 /* HTP.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		07C9B30E1689053500E582A4 /* HTP.png in Resources */ = {isa = PBXBuildFile; fileRef = 07C9B30D1689053500E582A4 /* HTP.png */; };
 		07C9B312168907B100E582A4 /* pauseTom1.png in Resources */ = {isa = PBXBuildFile; fileRef = 07C9B311168907B100E582A4 /* pauseTom1.png */; };
+		07F0FAAC17516277009528FF /* star-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 07F0FAAB17516277009528FF /* star-ipad.png */; };
 		07FBAF9A1683ABC00007C63D /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FBAF991683ABC00007C63D /* Home.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		07FEC19416B7388700E294C4 /* PauseScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FEC19316B7388700E294C4 /* PauseScene.m */; };
 		07FEC19816B7389700E294C4 /* gameover.png in Resources */ = {isa = PBXBuildFile; fileRef = 07FEC19616B7389700E294C4 /* gameover.png */; };
@@ -499,6 +500,7 @@
 		07C9B30B1689044600E582A4 /* HTP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTP.m; sourceTree = "<group>"; };
 		07C9B30D1689053500E582A4 /* HTP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HTP.png; sourceTree = "<group>"; };
 		07C9B311168907B100E582A4 /* pauseTom1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pauseTom1.png; sourceTree = "<group>"; };
+		07F0FAAB17516277009528FF /* star-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star-ipad.png"; sourceTree = "<group>"; };
 		07FBAF981683ABC00007C63D /* Home.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Home.h; sourceTree = "<group>"; };
 		07FBAF991683ABC00007C63D /* Home.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Home.m; sourceTree = "<group>"; };
 		07FEC19316B7388700E294C4 /* PauseScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PauseScene.m; sourceTree = "<group>"; };
@@ -539,12 +541,8 @@
 		077275CA174ABB4B00594053 /* iPad */ = {
 			isa = PBXGroup;
 			children = (
-				070A5370174AF15E000E08F2 /* pauseTom1-ipad.png */,
-				077275D9174AC2DB00594053 /* gameover-ipad.png */,
-				077275D5174AC16400594053 /* hgTom-ipad.png */,
-				077275D6174AC16400594053 /* HTP-ipad.png */,
-				077275D1174ABEEC00594053 /* creditTom-ipad.png */,
-				077275CF174ABE0D00594053 /* homeTom-ipad.png */,
+				07F0FAAA17516259009528FF /* Background */,
+				07F0FAA91751624E009528FF /* Sprites */,
 			);
 			name = iPad;
 			sourceTree = "<group>";
@@ -1112,6 +1110,27 @@
 			name = "Parallax Scrolling - Jana";
 			sourceTree = "<group>";
 		};
+		07F0FAA91751624E009528FF /* Sprites */ = {
+			isa = PBXGroup;
+			children = (
+				07F0FAAB17516277009528FF /* star-ipad.png */,
+			);
+			name = Sprites;
+			sourceTree = "<group>";
+		};
+		07F0FAAA17516259009528FF /* Background */ = {
+			isa = PBXGroup;
+			children = (
+				070A5370174AF15E000E08F2 /* pauseTom1-ipad.png */,
+				077275D9174AC2DB00594053 /* gameover-ipad.png */,
+				077275D5174AC16400594053 /* hgTom-ipad.png */,
+				077275D6174AC16400594053 /* HTP-ipad.png */,
+				077275D1174ABEEC00594053 /* creditTom-ipad.png */,
+				077275CF174ABE0D00594053 /* homeTom-ipad.png */,
+			);
+			name = Background;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1225,6 +1244,7 @@
 				077275D8174AC16400594053 /* HTP-ipad.png in Resources */,
 				077275DA174AC2DB00594053 /* gameover-ipad.png in Resources */,
 				070A5371174AF15E000E08F2 /* pauseTom1-ipad.png in Resources */,
+				07F0FAAC17516277009528FF /* star-ipad.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

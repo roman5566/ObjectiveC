@@ -137,7 +137,7 @@ enum  {
         [self schedule:@selector(gameLogic1:) interval:4.0];
         [self scheduleUpdate];
     
-      [[SimpleAudioEngine sharedEngine] playBackgroundMusic:@"DoodleTunesFullMix.caf"];
+     // [[SimpleAudioEngine sharedEngine] playBackgroundMusic:@"DoodleTunesFullMix.caf"];
         
         x = 5;
 		y = 5;
@@ -245,7 +245,7 @@ DistanceTiming += dt;
 //ADDING STARS
 -(void)addStars {
 	
-	CCSprite *stars = [CCSprite spriteWithFile:@"star.png" rect:CGRectMake(0, 0, 40, 40)]; //Get Stars and Size of the Stars
+	CCSprite *stars = [CCSprite spriteWithFile:@"star-ipad.png" rect:CGRectMake(0, 0, 120, 120)]; //Get Stars and Size of the Stars
 	stars.tag = kTagStars;
 	
 	// Determine where to spawn the target along the Y axis

@@ -129,15 +129,15 @@ enum  {
         [_backgroundNode addChild:_planet1 z:-1 parallaxRatio:bgSpeed positionOffset:ccp(900,winSize.height * 0.3)];
         [_backgroundNode addChild:_planet2 z:-1 parallaxRatio:bgSpeed positionOffset:ccp(1500,winSize.height * 0.9)];
         
-        
-        
+        //Start the Specific
 		[self schedule:@selector(move) interval:.01];
 		[self schedule:@selector(move1) interval:.02];
         [self schedule:@selector(gameLogic:)interval:1.0];
         [self schedule:@selector(gameLogic1:) interval:4.0];
         [self scheduleUpdate];
-    
-      [[SimpleAudioEngine sharedEngine] playBackgroundMusic:@"DoodleTunesFullMix.caf"];
+        
+        //Audio
+        [[SimpleAudioEngine sharedEngine] playBackgroundMusic:@"DoodleTunesFullMix.caf"];
         
         x = 5;
 		y = 5;
@@ -165,12 +165,15 @@ enum  {
 // Parallax Scrolling Update Method
 - (void)update:(ccTime)dt {
     
-DistanceTiming += dt;
+    //Increase the meter
+    DistanceTiming += dt;
     if ( DistanceTiming >= 0.25f ) {
-     distanceRan += 1;
-      DistanceTiming -= 0.25f;
+        distanceRan += 1;
+        DistanceTiming -= 0.25f;
    }
-   starTiming += dt;
+    
+    //Increase the score
+    starTiming += dt;
     if ( starTiming >= 0.50f ) {
         starsCollected += 6;
         starTiming -= 0.50f;
@@ -302,7 +305,7 @@ DistanceTiming += dt;
         //this part here, what is this doing? detects the collison, this says, if the stars'x coordinate is greater than 480 or less than
         //0 then x = the opposite of itself, this would put it in the lower cornder, run this program for me i want to see the collision
 		
-		
+        
 		//Collision Detection
 		float xDif = stars.position.x - player.position.x;
 		float yDif = stars.position.y - player.position.y;
@@ -310,7 +313,7 @@ DistanceTiming += dt;
         
 		if(distance < 30) {
 			starsCollected += 100;
-           // starsCollected = starsCollected + 10;
+           //starsCollected = starsCollected + 10;
 			[_stars removeObject:stars];
             
             
